@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using ODS.DataEntry.Modules.WellMaster.Application.DTO;
-using ODS.DataEntry.Modules.WellMaster.Domain.WellMaster;
+using ODS.DataEntry.Modules.WellMaster.Data.WellMaster;
 
 namespace ODS.DataEntry.Modules.WellMaster.Application.Command
 {
@@ -11,18 +11,18 @@ namespace ODS.DataEntry.Modules.WellMaster.Application.Command
 
     public class GetWellMasterCommandHandler : IRequestHandler<GetWellMasterCommand, IEnumerable<WellMasterDto>>
     {
-        private readonly IWellMasterService _wellMasterService;
+        private readonly IWellMasterRepository _wellMasterRepository;
         private readonly IMapper _mapper;
-        public GetWellMasterCommandHandler(IWellMasterService wellMasterService, IMapper mapper)
+        public GetWellMasterCommandHandler(IWellMasterRepository wellMasterRepository, IMapper mapper)
         {
-            _wellMasterService = wellMasterService;
+            _wellMasterRepository = wellMasterRepository;
             _mapper = mapper;
 
         }
 
         public async Task<IEnumerable<WellMasterDto>> Handle(GetWellMasterCommand request, CancellationToken cancellationToken)
         {
-            var items = await _wellMasterService.GetWellMastersAsync();
+            var items = await _wellMasterRepository.GetWellMastersAsync();
 
             var wellMasters = _mapper.Map<IEnumerable<WellMasterDto>>(items);
             return wellMasters;

@@ -1,8 +1,6 @@
 ﻿using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-using ODS.DataEntry.Modules.WellMaster.Application.Service;
 using ODS.DataEntry.Modules.WellMaster.Data.WellMaster;
-using ODS.DataEntry.Modules.WellMaster.Domain.WellMaster;
 
 namespace ODS.DataEntry.Modules.WellMaster.Application
 {
@@ -19,7 +17,7 @@ namespace ODS.DataEntry.Modules.WellMaster.Application
             });
 
             services.AddTransient<IWellMasterRepository, WellMasterRepository>();
-            services.AddTransient<IWellMasterService, WellMasterService>();
+            //services.AddTransient<IWellMasterService, WellMasterService>();
             return services;
         }
     }
