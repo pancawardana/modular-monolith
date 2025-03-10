@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{098EAE01-9325-431E-B27B-545A6E4A8CBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{00FA8019-41C2-4E01-8CB8-3FFF31DC6F9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C6FC70ED-2F69-4EDD-8F9D-997198A7FB61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2E9BE5E2-9A8C-4F54-B168-252290608004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WellMaster", "WellMaster", "{775715C0-693A-4726-BB44-ED5EFF96E7EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODS.DataEntry.Modules.WellMaster.Domain", "src\Modules\WellMaster\ODS.DataEntry.Modules.WellMaster.Domain\ODS.DataEntry.Modules.WellMaster.Domain.csproj", "{D1E34ED0-FFE6-4191-AA32-519FD1B25AFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODS.DataEntry.Modules.WellMaster.Data", "src\Modules\WellMaster\ODS.DataEntry.Modules.WellMaster.Data\ODS.DataEntry.Modules.WellMaster.Data.csproj", "{02E33041-864D-4D73-BF14-91019A6F15D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODS.DataEntry.Modules.WellMaster.Application", "src\Modules\WellMaster\ODS.DataEntry.Modules.WellMaster.Application\ODS.DataEntry.Modules.WellMaster.Application.csproj", "{A795FCD0-331B-486B-986E-73E695886B75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODS.DataEntry.Shared", "src\Shared\ODS.DataEntry.Shared\ODS.DataEntry.Shared.csproj", "{BBC6E4F7-5B70-46F9-B805-6583F4E815C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODS.DataEntry.Shared.Data", "src\Shared\ODS.DataEntry.Shared.Data\ODS.DataEntry.Shared.Data.csproj", "{201210EE-4888-4B39-9509-7067D6E45031}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODS,DataEntry.Shared.Infrastructure", "src\Shared\ODS,DataEntry.Shared.Infrastructure\ODS,DataEntry.Shared.Infrastructure.csproj", "{944E031C-AB29-4E93-931B-81330755E01F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODS.DataEntry.API", "src\API\ODS.DataEntry.API\ODS.DataEntry.API.csproj", "{F135A6C6-DC1A-4D21-B95E-F6F7A98CBA8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1E34ED0-FFE6-4191-AA32-519FD1B25AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E34ED0-FFE6-4191-AA32-519FD1B25AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E34ED0-FFE6-4191-AA32-519FD1B25AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E34ED0-FFE6-4191-AA32-519FD1B25AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E33041-864D-4D73-BF14-91019A6F15D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E33041-864D-4D73-BF14-91019A6F15D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E33041-864D-4D73-BF14-91019A6F15D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E33041-864D-4D73-BF14-91019A6F15D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A795FCD0-331B-486B-986E-73E695886B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A795FCD0-331B-486B-986E-73E695886B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A795FCD0-331B-486B-986E-73E695886B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A795FCD0-331B-486B-986E-73E695886B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC6E4F7-5B70-46F9-B805-6583F4E815C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC6E4F7-5B70-46F9-B805-6583F4E815C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC6E4F7-5B70-46F9-B805-6583F4E815C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC6E4F7-5B70-46F9-B805-6583F4E815C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201210EE-4888-4B39-9509-7067D6E45031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201210EE-4888-4B39-9509-7067D6E45031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201210EE-4888-4B39-9509-7067D6E45031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201210EE-4888-4B39-9509-7067D6E45031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944E031C-AB29-4E93-931B-81330755E01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944E031C-AB29-4E93-931B-81330755E01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944E031C-AB29-4E93-931B-81330755E01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944E031C-AB29-4E93-931B-81330755E01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F135A6C6-DC1A-4D21-B95E-F6F7A98CBA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F135A6C6-DC1A-4D21-B95E-F6F7A98CBA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F135A6C6-DC1A-4D21-B95E-F6F7A98CBA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F135A6C6-DC1A-4D21-B95E-F6F7A98CBA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00FA8019-41C2-4E01-8CB8-3FFF31DC6F9C} = {098EAE01-9325-431E-B27B-545A6E4A8CBF}
+		{C6FC70ED-2F69-4EDD-8F9D-997198A7FB61} = {098EAE01-9325-431E-B27B-545A6E4A8CBF}
+		{2E9BE5E2-9A8C-4F54-B168-252290608004} = {098EAE01-9325-431E-B27B-545A6E4A8CBF}
+		{775715C0-693A-4726-BB44-ED5EFF96E7EE} = {00FA8019-41C2-4E01-8CB8-3FFF31DC6F9C}
+		{D1E34ED0-FFE6-4191-AA32-519FD1B25AFC} = {775715C0-693A-4726-BB44-ED5EFF96E7EE}
+		{02E33041-864D-4D73-BF14-91019A6F15D0} = {775715C0-693A-4726-BB44-ED5EFF96E7EE}
+		{A795FCD0-331B-486B-986E-73E695886B75} = {775715C0-693A-4726-BB44-ED5EFF96E7EE}
+		{BBC6E4F7-5B70-46F9-B805-6583F4E815C8} = {C6FC70ED-2F69-4EDD-8F9D-997198A7FB61}
+		{201210EE-4888-4B39-9509-7067D6E45031} = {C6FC70ED-2F69-4EDD-8F9D-997198A7FB61}
+		{944E031C-AB29-4E93-931B-81330755E01F} = {C6FC70ED-2F69-4EDD-8F9D-997198A7FB61}
+		{F135A6C6-DC1A-4D21-B95E-F6F7A98CBA8C} = {2E9BE5E2-9A8C-4F54-B168-252290608004}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0FD9D84-83D9-4D39-9A9D-920555654B84}
+	EndGlobalSection
+EndGlobal

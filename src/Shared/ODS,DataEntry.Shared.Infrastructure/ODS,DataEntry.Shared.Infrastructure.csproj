@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ODS_DataEntry.Shared.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\WellMaster\ODS.DataEntry.Modules.WellMaster.Data\ODS.DataEntry.Modules.WellMaster.Data.csproj" />
+    <ProjectReference Include="..\..\Modules\WellMaster\ODS.DataEntry.Modules.WellMaster.Domain\ODS.DataEntry.Modules.WellMaster.Domain.csproj" />
+    <ProjectReference Include="..\ODS.DataEntry.Shared.Data\ODS.DataEntry.Shared.Data.csproj" />
+  </ItemGroup>
+
+</Project>

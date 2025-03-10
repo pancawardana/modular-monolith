@@ -1,0 +1,6 @@
+@ODS.DataEntry.API_HostAddress = http://localhost:5015
+
+GET {{ODS.DataEntry.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
